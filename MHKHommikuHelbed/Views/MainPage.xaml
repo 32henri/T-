@@ -1,0 +1,52 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MHKHommikuHelbed.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0">
+            <ImageButton Source="cinipng.png"
+                    Clicked="Cini_Clicked"
+                    WidthRequest="200" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1">
+            <ImageButton Source="nesquik.png"
+                    Clicked="Nes_Clicked"
+                    WidthRequest="200" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="2">
+            <ImageButton Source="corn.png"
+                    Clicked="Corn_Clicked"
+                    WidthRequest="200" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="3">
+            <ImageButton Source="kit.png"
+                    Clicked="Kit_Clicked"
+                    WidthRequest="200" HeightRequest="200"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+        </StackLayout>
+
+
+    </Grid>
+</ContentPage>
